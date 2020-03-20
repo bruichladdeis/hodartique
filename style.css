@@ -1,0 +1,165 @@
+<style>
+*{
+box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;   
+}
+
+.top-container {
+    
+    text-align: center;
+}
+
+.header {
+    background: #000;
+    color: aliceblue;
+    text-align: right;
+    padding: 10px 16px;
+}
+
+.content {
+    padding: 16px;
+    color: #000;
+}
+
+     
+#pre-title {
+    height: 25px;
+    line-height; content: close-quote;
+    text-align: center;
+    background-color: #000;
+    outline-color: white;
+}
+    
+#sub-title {
+    height: 25px;
+    line-height; content: close-quote;
+    text-align: center;
+    background-color: #000;
+    outline-color: white; 
+}
+    
+.marquee {
+    background-color: #000;
+    color: white; 
+    font-weight: 100;
+}
+
+nav {
+    float: right;
+    width: 20%;
+    background: #000;
+    padding: 20px;
+    height: auto
+    
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+
+    </header>
+<body>
+
+</style>
+ul {
+    list-style-type: none;
+    background-color: #666;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+ul li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    padding: 15px 15px;
+    text-align: right;
+}
+    
+ul li a:hover{
+    background-color: coral;
+    border-radius: 5px;
+}    
+
+.main{
+    width: 80%;
+    float: left;
+}
+.right {
+    width: 20%;
+    float: right;
+}
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin:5px;
+}
+.sidebar {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin:5px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
+
